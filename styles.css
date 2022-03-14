@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    border: solid red 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.introduction{
+    display: flex;
+    border: solid blue 2px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mainTitle{
+    border: solid red 2px;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.mainSubtitle{
+    border:solid red 2px;
+    margin: 10px;
+}
+
+.forehand{
+    display: flex;
+    border: solid green 2px;
+    flex-direction: column;
+}
+
+.backhand{
+    display: flex;
+    border: solid green 2px;
+    flex-direction: column;
+}
+
+.serve{
+    display: flex; 
+    border: solid green 2px;
+    flex-direction: column;
+}
+
+.volleyNetGame{
+    display: flex;
+    border: solid green 2px;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    font-size: 28px;
+    margin: 15px;
+    border: solid red 2px;
+}
+
+.subtitle{
+    margin: 10px;
+    border: solid red 2px;
+}
+
+.player{
+    margin: 5px;
+    border: solid red 2px;
+    
+}
+
+.intro{
+    display: flex;
+    border: solid yellow 2px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerInfo{
+    border: solid blue 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    
+    
+    
+}
