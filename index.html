@@ -3,26 +3,62 @@
     <head>
         <title>Best tennis players for every shot</title>
         <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     
     <body>
+       <!-- <img class="background-image" src="images/kyrgiosIWRacketThrow.jpeg" alt=""> -->
         <div class="introduction">
             <div class="mainTitle">The Best Tennis Players for Each Shot</div>
             <div class="mainSubtitle">In tennis, there are some players that are known for having mastered certain shots. In this article, we will explain which player is the best at what. </div>
         </div>
-        <div class="forehand">
+        <div class="forehand"><!--acts as .carousel(?)-->
+            
+            <!-- Intro -->
             <div class="forehandIntro intro">
                 <div class="forehandTitle title">Forehand</div>
                 <div class="forehandSubtitle subtitle">These players are known for their increadible forehands, which they used to dominate points with.</div>
             </div>
-            <div class="forehandPlayerInfo playerInfo">
-                <div class="forehandPlayer1 player">forehand player 1</div>
-                <div class="forehandPlayer2 player">forehand player 2</div>
-                <div class="forehandPlayer3 player">forehand player 3</div>
-                <div class="forehandPlayer4 player">forehand player 4</div>
+            <!---->
+            <div class="carousel carousel--f">
+            <button class="carousel__button carousel__button--left carousel__button--f carousel__button--left--f">
+                <img src="images/leftArrow1.png" alt="">
+            </button>
+            <div class="carousel__track-container carousel__track-container--f">
+                <ul class="forehandPlayerInfo playerInfo carousel__track--f carousel__track">
+
+                    <li class="carousel__slide--f carousel__slide"> 
+                        <div class="forehandPlayer1 forehandPlayer player">forehand player 1</div> 
+                    </li>
+
+                    <li class="carousel__slide--f carousel__slide"> 
+                        <div class="forehandPlayer2 forehandPlayer player">forehand player 2</div> 
+                    </li>
+
+                    <li class="carousel__slide--f carousel__slide"> 
+                        <div class="forehandPlayer3 forehandPlayer player">forehand player 3</div> 
+                    </li>
+
+                    <li class="carousel__slide--f carousel__slide"> 
+                        <div class="forehandPlayer4 forehandPlayer player">forehand player 4</div> 
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right carousel__button--f carousel__button--right--f">
+               <img src="images/rightArrow1.png" alt="">
+            </button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
             </div>
         </div>
+        </div>
+
+
         <div class="backhand">
             <div class="backhandIntro intro">
                 <div class="backhandTitle title">Backhand</div>
