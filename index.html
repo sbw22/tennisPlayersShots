@@ -13,7 +13,7 @@
             <div class="mainTitle">The Best Tennis Players for Each Shot</div>
             <div class="mainSubtitle">In tennis, there are some players that are known for having mastered certain shots. In this article, we will explain which player is the best at what. </div>
         </div>
-        <div class="forehand"><!--acts as .carousel(?)-->
+        <div class="forehand">
             
             <!-- Intro -->
             <div class="forehandIntro intro">
@@ -22,13 +22,13 @@
             </div>
             <!---->
             <div class="carousel carousel--f">
-            <button class="carousel__button carousel__button--left carousel__button--f carousel__button--left--f">
+            <button class="carousel__button carousel__button--left carousel__button--f carousel__button--left--f is-hidden">
                 <img src="images/leftArrow1.png" alt="">
             </button>
             <div class="carousel__track-container carousel__track-container--f">
                 <ul class="forehandPlayerInfo playerInfo carousel__track--f carousel__track">
 
-                    <li class="carousel__slide--f carousel__slide"> 
+                    <li class="carousel__slide--f carousel__slide current-slide current-slide--f"> 
                         <div class="forehandPlayer1 forehandPlayer player">forehand player 1</div> 
                     </li>
 
@@ -55,21 +55,50 @@
                 <button class="carousel__indicator"></button>
                 <button class="carousel__indicator"></button>
             </div>
+            <script src="js/carousel--f.js"></script> 
         </div>
         </div>
-
 
         <div class="backhand">
             <div class="backhandIntro intro">
                 <div class="backhandTitle title">Backhand</div>
                 <div class="backhandSubtitle subtitle">These players are known for their dominating backhands, which they used to beat down their opponents with and dominate ponts.</div>
             </div>
-            <div class="backhandPlayerInfo playerInfo">
-                <div class="backhandPlayer1 player">backhand player 1</div>
-                <div class="backhandPlayer2 player">backhand player 2</div>
-                <div class="backhandPlayer3 player">backhand player 3</div>
-                <div class="backhandPlayer4 player">backhand player 4</div>
-            </div>           
+            <div class="carousel carousel--b">
+                <button class="carousel__button carousel__button--left carousel__button--b carousel__button--left--b is-hidden">
+                    <img src="images/leftArrow1.png" alt="">
+                </button>
+                <div class="carousel__track-container carousel__track-container--b">
+                    <ul class="backhandPlayerInfo playerInfo carousel__track--b carousel__track">
+    
+                        <li class="carousel__slide--b carousel__slide current-slide current-slide--b"> 
+                            <div class="backhandPlayer1 backhandPlayer player">backhand player 1</div> 
+                        </li>
+    
+                        <li class="carousel__slide--f carousel__slide"> 
+                            <div class="backhandPlayer2 backhandPlayer player">backhand player 2</div> 
+                        </li>
+    
+                        <li class="carousel__slide--f carousel__slide"> 
+                            <div class="backhandPlayer3 backhandPlayer player">backhand player 3</div> 
+                        </li>
+    
+                        <li class="carousel__slide--f carousel__slide"> 
+                            <div class="backhandPlayer4 backhandPlayer player">backhand player 4</div> 
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel__button carousel__button--right carousel__button--b carousel__button--right--b">
+                   <img src="images/rightArrow1.png" alt="">
+                </button>
+    
+                <div class="carousel__nav">
+                    <button class="carousel__indicator current-slide"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                </div>
+                <script src="js/carousel--b.js"></script>        
         </div>
         <div class="serve">
             <div class="serveIntro intro">
