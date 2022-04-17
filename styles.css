@@ -37,10 +37,10 @@ body{
 }
 
 .backhand{
-    display: flex;
-    border: solid green 2px;
-    flex-direction: column;
+    
+    border: solid red 2px;
     padding-bottom: 40px;
+    
 }
 
 .serve{
@@ -137,7 +137,7 @@ body{
     width: 100%;
 }
 
-.carousel__button {
+.carousel__button,.carousel__button--b {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -146,15 +146,15 @@ body{
     cursor: pointer;
 }
 
-.carousel__button--left {
+.carousel__button--left,.carousel__button--left--b {
     left: -40px;
 }
 
-.carousel__button--right {
-    right: -40px;x
+.carousel__button--right,.carousel__button--right--b {
+    right: -40px;
 }
 
-.carousel__button img { 
+.carousel__button img,.carousel__button--b img { 
     width: 20px;
 }
 
@@ -175,11 +175,11 @@ body{
     cursor: pointer;
 }
 
-.carousel__indicator.current-slide {
+.carousel__indicator.current-slide,.carousel__indicator--b.current-slide--b {
     background: rgba(0,0,0,.75);
 }
 
-.is-hidden{ display: none; };
+.is-hidden,.is-hidden--b{ display: none; };
 
 
 
