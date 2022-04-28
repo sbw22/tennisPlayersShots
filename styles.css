@@ -1,6 +1,13 @@
 body{
-    border: solid cyan 2px;
+    /*border: solid cyan 2px;*/ 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/backgroundImage1.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    padding: 10px;
+
+    
 }
 
 
@@ -15,41 +22,41 @@ body{
 
 .introduction{
     display: flex;
-    border: solid blue 2px;
+    /*border: solid blue 2px;*/
     flex-direction: column;
     align-items: center;
 }
 
 .mainTitle{
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     font-size: 40px;
     margin: 20px;
 }
 
 .mainSubtitle{
-    border:solid red 2px;
+    /*border:solid red 2px;*/
     margin: 10px;
 }
 
 .forehand{  
-    border: solid green 2px;  
+    /*border: solid green 2px;  */
     padding-bottom: 40px;
 }
 
 .backhand{
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     padding-bottom: 40px;
     
 }
 
 .serve{ 
-    border: solid green 2px;
+    /*border: solid green 2px;*/
     padding-bottom: 40px;
     
 }
 
 .volleyNetGame{
-    border: solid green 2px;
+    /*border: solid green 2px;*/
     padding-bottom: 40px;
 }
 
@@ -71,17 +78,17 @@ body{
 .title{
     font-size: 28px;
     margin: 15px;
-    border: solid red 2px;   
+   /* border: solid red 2px;   */
 }
 
 .subtitle{
     margin: 10px;
-    border: solid red 2px;
+    /*border: solid red 2px;*/
 }
 
 .intro{
     display: flex;
-    border: solid yellow 2px;
+   /*border: solid yellow 2px;*/
     flex-direction: column;
     align-items: center;
 }
@@ -105,7 +112,9 @@ body{
 }
 
 .carousel__track-container { /* controls .player a little */
-    border: solid teal 2px;
+    /*border: solid yellow 2px;*/
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20px;
     height: 100%;
     position: static;
     overflow: hidden;
@@ -120,6 +129,7 @@ body{
     position: relative;
     height: 100%;
     transition: transform 300ms ease-in;
+     
 }
 
 .carousel__slide { /* controls player slides */
@@ -143,15 +153,15 @@ body{
 }
 
 .carousel__button--left,.carousel__button--left--b,.carousel__button--left--s,.carousel__button--left--v {
-    left: -40px;
+    left: -70px;
 }
 
 .carousel__button--right,.carousel__button--right--b,.carousel__button--right--s,.carousel__button--right--v {
-    right: -40px;
+    right: -70px;
 }
 
 .carousel__button img,.carousel__button--b img,.carousel__button--s img,.carousel__button--v img { 
-    width: 20px;
+    width: 40px;
 }
 
 .carousel__nav {
@@ -164,8 +174,8 @@ body{
 .carousel__indicator {
     border: 0;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     background: rgba(0,0,0,.3);
     margin: 0 12px;
     cursor: pointer;
@@ -186,22 +196,25 @@ body{
 }
 
 .PlayerTitle {
-    border: solid red 2px;
+   /* border: solid red 2px;*/
 }
 
 .playerSubtitle {
-    border: solid red 2px;
+    /*border: solid red 2px;*/
 }
 
 .playerImage {
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     display: flex;
     object-fit: cover;
+    
+    
 }
 
 .playerImage img {
-    max-width: 400px;
-    object-fit: none;
+    max-width: 300px;
+    
+    /*object-fit: none;*/
     
 }
 
